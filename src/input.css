@@ -1,1 +1,11 @@
 @import "tailwindcss";
+
+@layer utilities {
+  .font-arimo {
+    font-family: "Arimo", sans-serif;
+  }
+}
+
+:root {
+  --nav-color: #009966;
+}
