@@ -41,8 +41,8 @@
                   class="flex gap-3 items-center text-xl cursor-pointer"
                 >
                   <i class="ri-shopping-bag-3-line text-xl"></i>
-                  <button>cart</button>
-                  <p id="count-Items">0</p>
+                  <button class="cursor-pointer">cart</button>
+                  <p id="count-Items"></p>
                 </a>
               </div>
             </div>
@@ -105,7 +105,7 @@
           >
             <!-- card 1 -->
             <div
-              class="space-y-5 w-full sm:w-89 rounded-md bg-white shadow-2xl shadow-[#5a5a5a]"
+              class="product-card space-y-5 w-full sm:w-89 rounded-md bg-white shadow-2xl shadow-[#5a5a5a]"
             >
               <img
                 class="rounded-t-2xl w-full"
@@ -118,57 +118,60 @@
                   Sustainable dining essentials made from organic bamboo
                 </p>
                 <h2 class="font-medium text-xl text-(--hero-color)">$24.99</h2>
+                <!-- add to card Btn -->
                 <div
-                  class="flex gap-3 items-center justify-center bg-(--btn-color) py-3 w-full rounded-md font-medium text-white"
+                  class="add-to-cart-btn flex gap-3 items-center justify-center bg-(--btn-color) py-3 w-full rounded-md font-medium text-white cursor-pointer"
                 >
-                  <i class="ri-shopping-cart-2-line"></i>
-                  <button>Add to Cart</button>
+                  <i class="ri-shopping-cart-2-line cursor-pointer"></i>
+                  <button class="cursor-pointer">Add to Cart</button>
                 </div>
               </div>
             </div>
             <!-- card 2 -->
             <div
-              class="space-y-5 w-full sm:w-89 rounded-md bg-white shadow-2xl shadow-[#5a5a5a]"
+              class="product-card space-y-5 w-full sm:w-89 rounded-md bg-white shadow-2xl shadow-[#5a5a5a]"
             >
               <img
                 class="rounded-t-2xl w-full"
-                src="./images/ProductCard.png"
+                src="./images/ProductCard-1.png"
                 alt="ProductCard"
               />
               <div class="p-6 space-y-5">
-                <h2 class="font-medium text-xl">Bamboo Cutlery Set</h2>
+                <h2 class="font-medium text-xl">Mam</h2>
                 <p class="text-[#717182]">
                   Sustainable dining essentials made from organic bamboo
                 </p>
                 <h2 class="font-medium text-xl text-(--hero-color)">$24.99</h2>
+                <!-- add to card Btn -->
                 <div
-                  class="flex gap-3 items-center justify-center bg-(--btn-color) py-3 w-full rounded-md font-medium text-white"
+                  class="add-to-cart-btn flex gap-3 items-center justify-center bg-(--btn-color) py-3 w-full rounded-md font-medium text-white cursor-pointer"
                 >
-                  <i class="ri-shopping-cart-2-line"></i>
-                  <button>Add to Cart</button>
+                  <i class="ri-shopping-cart-2-line cursor-pointer"></i>
+                  <button class="cursor-pointer">Add to Cart</button>
                 </div>
               </div>
             </div>
             <!-- card 3 -->
             <div
-              class="space-y-5 w-full sm:w-89 rounded-md bg-white shadow-2xl shadow-[#5a5a5a]"
+              class="product-card space-y-5 w-full sm:w-89 rounded-md bg-white shadow-2xl shadow-[#5a5a5a]"
             >
               <img
                 class="rounded-t-2xl w-full"
-                src="./images/ProductCard.png"
+                src="./images/ImageWithFallback (2) 1.png"
                 alt="ProductCard"
               />
               <div class="p-6 space-y-5">
-                <h2 class="font-medium text-xl">Bamboo Cutlery Set</h2>
+                <h2 class="font-medium text-xl">Wist Fallback</h2>
                 <p class="text-[#717182]">
                   Sustainable dining essentials made from organic bamboo
                 </p>
                 <h2 class="font-medium text-xl text-(--hero-color)">$24.99</h2>
+                <!-- add to card Btn -->
                 <div
-                  class="flex gap-3 items-center justify-center bg-(--btn-color) py-3 w-full rounded-md font-medium text-white"
+                  class="add-to-cart-btn flex gap-3 items-center justify-center bg-(--btn-color) py-3 w-full rounded-md font-medium text-white cursor-pointer"
                 >
-                  <i class="ri-shopping-cart-2-line"></i>
-                  <button>Add to Cart</button>
+                  <i class="ri-shopping-cart-2-line cursor-pointer"></i>
+                  <button class="cursor-pointer">Add to Cart</button>
                 </div>
               </div>
             </div>
@@ -176,5 +179,8 @@
         </div>
       </section>
     </main>
+
+    <script src="./js/addcard.js"></script>
+    <!-- <script src="./js/addtocard.js"></script> -->
   </body>
 </html>

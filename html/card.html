@@ -15,60 +15,65 @@
     <!-- title -->
     <title>Add to Card</title>
   </head>
-  <body>
-    <body class="font-arimo">
-      <!-- NAV -->
-      <nav>
-        <section>
-          <div class="container mx-auto p-2 py-5">
-            <div class="flex items-center justify-between">
-              <div class="flex gap-3 items-center">
+
+  <body class="font-arimo">
+    <!-- NAV -->
+    <nav>
+      <section>
+        <div class="container mx-auto p-2 py-5">
+          <div class="flex items-center justify-between">
+            <div class="flex gap-3 items-center">
+              <a href="../index.html" class="flex gap-5 items-center">
                 <i class="ri-shopping-cart-2-line text-2xl"></i>
                 <h2 class="font-bold text-xl">Shopping Cart</h2>
+              </a>
 
-                <div
-                  class="bg-[#eeeeee] flex font-medium gap-2 py-1 px-4 rounded-md"
-                >
-                  <p>0</p>
-                  <button>items</button>
-                </div>
-              </div>
-              <i class="ri-close-line text-3xl"></i>
-            </div>
-          </div>
-        </section>
-      </nav>
-
-      <main class="flex-row">
-        <section class="container mx-auto p-5">
-          <!-- Content  -->
-        </section>
-      </main>
-
-      <!-- FOOTER -->
-      <footer>
-        <section>
-          <div class="container mx-auto p-3">
-            <div class="space-y-4">
-              <div class="flex justify-between items-center border-b pb-3">
-                <h2 class="text-gray-600">Subtotal</h2>
-                <span class="font-medium">$120</span>
-              </div>
-
-              <div class="flex justify-between items-center pt-2">
-                <h2 class="text-lg font-semibold">Total</h2>
-                <span class="text-lg font-bold">$120</span>
-              </div>
-
-              <button
-                class="bg-(--btn-color) hover:opacity-90 transition py-3 w-full text-lg font-medium rounded-lg text-white mt-4 cursor-pointer"
+              <div
+                class="bg-[#eeeeee] flex font-medium gap-2 py-1 px-4 rounded-md"
               >
-                Checkout
-              </button>
+                <p id="count-Items">0</p>
+                <button>items</button>
+              </div>
             </div>
+            <a href="../index.html">
+              <i class="ri-close-line text-3xl"></i>
+            </a>
           </div>
-        </section>
-      </footer>
-    </body>
+        </div>
+      </section>
+    </nav>
+
+    <main class="flex-row">
+      <section class="container mx-auto p-5">
+        <!-- Content  -->
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+      <section>
+        <div class="container mx-auto p-3">
+          <div class="space-y-4">
+            <div class="flex justify-between items-center border-b pb-3">
+              <h2 class="text-gray-600">Subtotal</h2>
+              <span class="font-medium" id="subTotal">$00.0</span>
+            </div>
+
+            <div class="flex justify-between items-center pt-2">
+              <h2 class="text-lg font-semibold">Total Price</h2>
+              <span class="text-lg font-bold" id="totalPrice">$00.0</span>
+            </div>
+
+            <button
+              class="bg-(--btn-color) hover:opacity-90 transition py-3 w-full text-lg font-medium rounded-lg text-white mt-4 cursor-pointer"
+            >
+              Checkout
+            </button>
+          </div>
+        </div>
+      </section>
+    </footer>
+
+    <script src="../js/addcard.js"></script>
   </body>
 </html>
